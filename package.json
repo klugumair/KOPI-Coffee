@@ -1,0 +1,15 @@
+{
+  "name": "kopi-coffee-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Responsive vanilla HTML, CSS, and JavaScript coffee portfolio site.",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "check": "npm run build && node --check outputs/script.js"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
+  }
+}
